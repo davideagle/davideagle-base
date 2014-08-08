@@ -36,7 +36,9 @@
 # Copyright 2014 Rob Nelson
 #
 class base {
-
+  
+  include ::motd
+  
   include ::ssh
 
   class { '::ntp':
