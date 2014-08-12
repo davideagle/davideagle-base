@@ -37,8 +37,6 @@
 #
 class base {
   
-  include ::motd
-  
   include ::ssh
 
   include ::motd
